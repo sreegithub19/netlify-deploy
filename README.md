@@ -129,6 +129,8 @@ v18.0.0
 1.22.19
 - yarn create redwood-app ./netlify-deploy (includes git init)
 - code netlify-deploy/
+- yarn redwood generate page home /
+- yarn redwood generate page my-page
 - yarn rw dev (to start in local : http://localhost:8910/)
 
 
