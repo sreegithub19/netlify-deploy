@@ -119,3 +119,13 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 - Stay updated: read [Forum announcements](https://community.redwoodjs.com/c/announcements/5), follow us on [Twitter](https://twitter.com/redwoodjs), and subscribe to the [newsletter](https://redwoodjs.com/newsletter)
 - [Learn how to contribute](https://redwoodjs.com/docs/contributing)
+
+
+Steps:
+
+- node -v
+v18.0.0
+- yarn -v
+1.22.19
+- yarn create redwood-app ./netlify-deploy (includes git init)
+- code netlify-deploy/
