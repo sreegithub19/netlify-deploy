@@ -135,3 +135,5 @@ v18.0.0
 Git:
 - git add . && git commit -m "C" && git push https://github.com/sreegithub19/netlify-deploy.git master
 
+Deploy to Netlify:
+- yarn rw setup deploy netlify ( to create netlify.toml file)
