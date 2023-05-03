@@ -123,24 +123,18 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 Steps:
 
-(in JS):
-- node -v
-v18.0.0
-- yarn -v
-1.22.19
-- yarn create redwood-app ./netlify-deploy (includes git init)
-- code netlify-deploy/
-- yarn redwood generate page home /
-- yarn redwood generate page my-page
-- yarn rw dev (to start in local : http://localhost:8910/)
+node -v v18.0.0
+yarn -v 1.22.19
+yarn create redwood-app ./netlify-deploy (includes git init)
+code netlify-deploy/
+yarn redwood generate page home /
+yarn redwood generate page my-page
+yarn rw dev (to start in local : http://localhost:8910/)
 
-(for TS):
-- yarn install
-- yarn rw setup tsconfig (Error: self-signed certificate in certificate chain)
 
-======================================================================
 Git:
-- git add . && git commit -m "C" && git push https://github.com/sreegithub19/netlify-deploy.git master
 
+git add . && git commit -m "C" && git push https://github.com/sreegithub19/netlify-deploy.git typescript
 Deploy to Netlify:
-- yarn rw setup deploy netlify ( to create netlify.toml file)
+
+yarn rw setup deploy netlify ( to create netlify.toml file)

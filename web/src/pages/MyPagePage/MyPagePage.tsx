@@ -8,7 +8,7 @@ const MyPagePage = () => {
 
       <h1>MyPagePage</h1>
       <p>
-        Find me in <code>./web/src/pages/MyPagePage/MyPagePage.js</code>
+        Find me in <code>./web/src/pages/MyPagePage/MyPagePage.tsx</code>
       </p>
       <p>
         My default route is named <code>myPage</code>, link to me with `
