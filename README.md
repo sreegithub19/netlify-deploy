@@ -123,6 +123,7 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 Steps:
 
+(in JS):
 - node -v
 v18.0.0
 - yarn -v
@@ -133,7 +134,11 @@ v18.0.0
 - yarn redwood generate page my-page
 - yarn rw dev (to start in local : http://localhost:8910/)
 
+(for TS):
+- yarn install
+- yarn rw setup tsconfig (Error: self-signed certificate in certificate chain)
 
+======================================================================
 Git:
 - git add . && git commit -m "C" && git push https://github.com/sreegithub19/netlify-deploy.git master
 
